@@ -18,4 +18,5 @@
 /bin/
 .settings/org.eclipse.jdt.core.prefs
 .metadata/
+.settings/
 .recommenders/

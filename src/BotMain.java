@@ -2,7 +2,7 @@ import java.io.File;
 
 public class BotMain {
 	public static String server = "irc.twitch.tv";
-	public static String oauth = "oauth:";
+	public static String oauth = "oauth:i4z4c0tifupv2chil2bcezu8xzz07i";
 	public static int port = 6667;
 	public static String defaultchannel = "#orthusaku";
 	static File f = new File("quotes.txt");

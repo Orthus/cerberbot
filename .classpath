@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/Users/Orthus/Desktop/Java programs/Common Libraries/pircbot-1.5.0/pircbot.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Orthus/Desktop/Java programs/Common Libraries/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Orthus/Desktop/Java programs/Common Libraries/commons-io-2.4-src/commons-io-2.4-src/src/main/java"/>
+	<classpathentry kind="lib" path="C:/Users/Orthus/Desktop/Java programs/Common Libraries/scribe-java-1.3.6/src/main/java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
