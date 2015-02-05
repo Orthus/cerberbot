@@ -13,7 +13,7 @@ import java.io.Reader;
 public class JsonReader {
 	
 	@SuppressWarnings("finally")
-	public static String main(String str1) {
+	public static String game(String str1) {
 		String API = "https://api.twitch.tv/kraken/channels/"+ str1;
 		String game = "null";
 		try 

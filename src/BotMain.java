@@ -1,4 +1,11 @@
+import java.io.File;
+
 public class BotMain {
+	public static String server = "irc.twitch.tv";
+	public static String oauth = "oauth:i4z4c0tifupv2chil2bcezu8xzz07i";
+	public static int port = 6667;
+	public static String defaultchannel = "#orthusaku";
+	static File f = new File("quotes.txt");
     public static void main(String[] args) throws Exception {
         
         // Now start our bot up.
@@ -8,10 +15,16 @@ public class BotMain {
         bot.setVerbose(true);
         
         // Connect to the IRC server.
-        bot.connect("irc.twitch.tv", 6667, "oauth:i4z4c0tifupv2chil2bcezu8xzz07i");
+        bot.connect(server, port, oauth);
 
         // Join the #pircbot channel.
-        bot.joinChannel("#orthusaku"); 
-   }
+        bot.joinChannel(defaultchannel); 
+    	if(f.exists()){
+        bot.quotes = quoteFile.reader();
+    	}
+    	else{
+    		System.out.println("quotes file missing");
+    	}
+    }
     
 }
